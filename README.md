@@ -145,6 +145,10 @@ echo 1024 > /proc/sys/net/core/somaxconn
 
 * Boost is required for the cryptoforknote-util module
   * For Ubuntu: `sudo apt-get install libboost-all-dev`
+  
+  * apt-get install build-essential
+  * sudo apt-get install software-properties-common
+  * npm install bufferutil --save-optional
 
 
 ##### Seriously
