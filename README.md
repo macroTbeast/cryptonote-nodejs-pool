@@ -146,10 +146,11 @@ echo 1024 > /proc/sys/net/core/somaxconn
 * Boost is required for the cryptoforknote-util module
   * For Ubuntu: `sudo apt-get install libboost-all-dev`
   
-  * apt-get install build-essential
-  * sudo apt-get install software-properties-common
-  * npm install bufferutil --save-optional
-
+ ```
+ apt-get install build-essential
+ sudo apt-get install software-properties-common
+ npm install bufferutil --save-optional
+ ```
 
 ##### Seriously
 Those are legitimate requirements. If you use old versions of Node.js or Redis that may come with your system package manager then you will have problems. Follow the linked instructions to get the last stable versions.
